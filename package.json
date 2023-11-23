@@ -14,10 +14,30 @@
   "contributes": {
     "commands": [
       {
+        "command": "ruihuag-helper.nav",
+        "title": "导航栏(ruihuag)"
+      },
+      {
         "command": "ruihuag-helper.helloWorld",
         "title": "Hello World"
       }
-    ]
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "when": "editorFocus",
+          "command": "ruihuag-helper.nav",
+          "group": "navigation"
+        }
+      ],
+      "editor/title": [
+        {
+          "when": "editorFocus",
+          "command": "ruihuag-helper.nav",
+          "group": "navigation"
+        }
+      ]
+    }
   },
   "scripts": {
     "vscode:prepublish": "pnpm run package",
