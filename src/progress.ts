@@ -1,6 +1,6 @@
 import * as vscode from 'vscode'
-
-export const progress = vscode.commands.registerCommand('lulu.progress', function () {
+import { namespace } from './constant'
+export const progress = vscode.commands.registerCommand(namespace + '.progress', function () {
   vscode.window.withProgress({
     location: vscode.ProgressLocation.Notification,
     title: "载入xxxx的进度...",

@@ -1,6 +1,6 @@
 {
   "name": "ruihuag-helper",
-  "displayName": "ruihuag-helper",
+  "displayName": "Ruihuag Helper",
   "description": "",
   "version": "0.0.1",
   "engines": {
@@ -12,35 +12,72 @@
   "activationEvents": [],
   "main": "./dist/extension.js",
   "contributes": {
-    "commands": [
+    "snippets": [
       {
-        "command": "ruihuag-helper.nav",
-        "title": "导航栏(ruihuag)"
+        "language": "vue",
+        "path": "./src/snippets/vue.json"
       },
       {
-        "command": "ruihuag-helper.helloWorld",
-        "title": "Hello World"
+        "language": "vue",
+        "path": "./src/snippets/js.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./src/snippets/react-js.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./src/snippets/react-ts.json"
+      },
+      {
+        "language": "markdown",
+        "path": "./src/snippets/md.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./src/snippets/js.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./src/snippets/js.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./src/snippets/js.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./src/snippets/js.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./src/snippets/ts.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./src/snippets/ts.json"
       }
     ],
-    "menus": {
-      "editor/context": [
+    "viewsContainers": {
+      "activitybar": [
         {
-          "when": "editorFocus",
-          "command": "ruihuag-helper.nav",
-          "group": "navigation"
+          "id": "ruihuag-helper-icon",
+          "title": "Helper",
+          "icon": "./images/logo.png"
         }
-      ],
-      "editor/title": [
+      ]
+    },
+    "views": {
+      "ruihuag-helper-icon": [
         {
-          "when": "editorFocus",
-          "command": "ruihuag-helper.nav",
-          "group": "navigation"
+          "id": "c1",
+          "name": ""
         }
       ]
     }
   },
   "scripts": {
-    "vscode:prepublish": "pnpm run package",
+    "vscode2:prepublish": "pnpm run package",
     "compile": "webpack",
     "watch": "webpack --watch",
     "package": "webpack --mode production --devtool hidden-source-map",
@@ -48,6 +85,8 @@
     "watch-tests": "tsc -p . -w --outDir out",
     "pretest": "pnpm run compile-tests && pnpm run compile && pnpm run lint",
     "lint": "eslint src --ext ts",
+    "build": "vsce package",
+    "pub": "vsce publish",
     "test": "node ./out/test/runTest.js"
   },
   "devDependencies": {

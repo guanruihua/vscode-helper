@@ -1,0 +1,105 @@
+{
+	"Print to ts disable line": {
+		"prefix": "ts-dl",
+		"body": [
+			"// @ts-ignore (define in dts)"
+		],
+		"description": "Print to ts disable line"
+	},
+	"Print to ESLint disable line Element": {
+		"prefix": "es-dl",
+		"body": [
+			"// eslint-disable-line"
+		],
+		"description": "Log ESLint line disable"
+	},
+	"Print to ESLint disable next line Element": {
+		"prefix": "es-dnl",
+		"body": [
+			"// eslint-disable-next-line"
+		],
+		"description": "Log ESLint line next disable"
+	},
+	"Print to ESLint disable File Element": {
+		"prefix": "es-df",
+		"body": [
+			"/* eslint-disable*/"
+		],
+		"description": "Log ESLit file disable"
+	},
+	"Print to console with attribute": {
+		"prefix": "cd",
+		"body": [
+			"console.log($1,'---$1---')$2"
+		],
+		"description": "Log output to console with attribute"
+	},
+	/* comment start */
+	"Print to line comment block": {
+		"prefix": [
+			"rrl",
+			"al"
+		],
+		"body": [
+			"/** $1 */"
+		],
+		"description": "Log output to console"
+	},
+	"Print to comment block": {
+		"prefix": "rrb",
+		"body": [
+			"/** $1 start **/",
+			"$2",
+			"/** $1 end **/"
+		],
+		"description": "Log output to console"
+	},
+	"Print to block": {
+		"prefix": "rra",
+		"body": [
+			"/*--- start ---*/",
+			"$1",
+			"/*--- end ---*/"
+		],
+		"description": "Log output to console"
+	},
+	"Print to html comment block": {
+		"prefix": "rrh",
+		"body": [
+			"<!-- $1 start -->",
+			"<!-- $1 end -->"
+		],
+		"description": "Print to html comment block"
+	},
+	/* comment end */
+	"@title": {
+		"prefix": [
+			"@t",
+			"@title"
+		],
+		"body": [
+			"@title $1$0"
+		],
+		"description": "Log output to @title"
+	},
+	"@lastUpdate": {
+		"prefix": [
+			"@last",
+			"@lastUpdate"
+		],
+		"body": [
+			"@lastUpdate $1$0"
+		],
+		"description": "Log output to @lastUpdate"
+	},
+	"@paradigm": {
+		"prefix": [
+			"@p",
+			"@paradigm"
+		],
+		"body": [
+			"@paradigm $1$0"
+		],
+		"description": "Log output to @paradigm"
+	}
+}
