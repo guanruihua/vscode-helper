@@ -1,6 +1,6 @@
-# ruihuag-helper README
+# ruihuag-helper
 
-This is the README for your extension "ruihuag-helper". After writing up a brief description, we recommend including the following sections.
+> 常用代码片段
 
 ## Features
 
