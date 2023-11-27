@@ -1,6 +1,6 @@
 {
   "Markdwon init": {
-    "prefix": "tmp-md",
+    "prefix": "!md",
     "body": [
       "# [`${TM_FILENAME_BASE}`]()"
     ],

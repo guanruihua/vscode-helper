@@ -1,10 +1,10 @@
 {
   "name": "ruihuag-helper",
   "displayName": "Ruihuag Helper",
-  "description": "常用代码片段",
+  "description": "Common code snippets",
   "publisher": "ruihuag",
   "icon": "images/pkq.png",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "engines": {
     "vscode": "^1.84.0"
   },
