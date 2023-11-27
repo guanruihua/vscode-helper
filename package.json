@@ -4,7 +4,7 @@
   "description": "常用代码片段",
   "publisher": "ruihuag",
   "icon": "images/pkq.png",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.84.0"
   },
@@ -17,47 +17,47 @@
     "snippets": [
       {
         "language": "vue",
-        "path": "./src/snippets/vue.json"
+        "path": "./snippets/vue.json"
       },
       {
         "language": "vue",
-        "path": "./src/snippets/js.json"
+        "path": "./snippets/js.json"
       },
       {
         "language": "javascriptreact",
-        "path": "./src/snippets/react-js.json"
+        "path": "./snippets/react-js.json"
       },
       {
         "language": "typescriptreact",
-        "path": "./src/snippets/react-ts.json"
+        "path": "./snippets/react-ts.json"
       },
       {
         "language": "markdown",
-        "path": "./src/snippets/md.json"
+        "path": "./snippets/md.json"
       },
       {
         "language": "javascript",
-        "path": "./src/snippets/js.json"
+        "path": "./snippets/js.json"
       },
       {
         "language": "javascriptreact",
-        "path": "./src/snippets/js.json"
+        "path": "./snippets/js.json"
       },
       {
         "language": "typescript",
-        "path": "./src/snippets/js.json"
+        "path": "./snippets/js.json"
       },
       {
         "language": "typescriptreact",
-        "path": "./src/snippets/js.json"
+        "path": "./snippets/js.json"
       },
       {
         "language": "typescript",
-        "path": "./src/snippets/ts.json"
+        "path": "./snippets/ts.json"
       },
       {
         "language": "typescriptreact",
-        "path": "./src/snippets/ts.json"
+        "path": "./snippets/ts.json"
       }
     ],
     "viewsContainers": {
