@@ -1,33 +1,33 @@
 {
-	"Print to ts disable line": {
+	"ts disable line": {
 		"prefix": "ts-dl",
 		"body": [
 			"// @ts-ignore (define in dts)"
 		],
-		"description": "Print to ts disable line"
+		"description": "ts disable line"
 	},
-	"Print to ESLint disable line Element": {
+	"ESLint disable line Element": {
 		"prefix": "es-dl",
 		"body": [
 			"// eslint-disable-line"
 		],
 		"description": "Log ESLint line disable"
 	},
-	"Print to ESLint disable next line Element": {
+	"ESLint disable next line Element": {
 		"prefix": "es-dnl",
 		"body": [
 			"// eslint-disable-next-line"
 		],
 		"description": "Log ESLint line next disable"
 	},
-	"Print to ESLint disable File Element": {
+	"ESLint disable File Element": {
 		"prefix": "es-df",
 		"body": [
 			"/* eslint-disable*/"
 		],
 		"description": "Log ESLit file disable"
 	},
-	"Print to console with attribute": {
+	"console with attribute": {
 		"prefix": "cd",
 		"body": [
 			"console.log($1,'---$1---')$2"
@@ -35,7 +35,7 @@
 		"description": "Log output to console with attribute"
 	},
 	/* comment start */
-	"Print to line comment block": {
+	"line comment block": {
 		"prefix": [
 			"rrl",
 			"al"
@@ -45,7 +45,7 @@
 		],
 		"description": "Log output to console"
 	},
-	"Print to comment block": {
+	"comment block": {
 		"prefix": "rrb",
 		"body": [
 			"/** $1 start **/",
@@ -54,7 +54,7 @@
 		],
 		"description": "Log output to console"
 	},
-	"Print to block": {
+	"block": {
 		"prefix": "rra",
 		"body": [
 			"/*--- start ---*/",
@@ -63,13 +63,13 @@
 		],
 		"description": "Log output to console"
 	},
-	"Print to html comment block": {
+	"html comment block": {
 		"prefix": "rrh",
 		"body": [
 			"<!-- $1 start -->",
 			"<!-- $1 end -->"
 		],
-		"description": "Print to html comment block"
+		"description": "html comment block"
 	},
 	/* comment end */
 	"@title": {

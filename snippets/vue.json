@@ -1,5 +1,5 @@
 {
-  "Print to Vue Script + Template": {
+  "Vue Script + Template": {
     "scope": "vue",
     "prefix": "!js",
     "body": [
@@ -11,9 +11,9 @@
       "\t$2",
       "</template>"
     ],
-    "description": "Print to Vue Script + Template"
+    "description": "Vue Script + Template"
   },
-  "Print to Vue Script + Template + TS": {
+  "Vue Script + Template + TS": {
     "scope": "vue",
     "prefix": "!ts",
     "body": [
@@ -25,6 +25,6 @@
       "\t$2",
       "</template>"
     ],
-    "description": "Print to Vue Script + Template"
+    "description": "Vue Script + Template"
   }
 }
