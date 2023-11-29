@@ -34,7 +34,6 @@
 		],
 		"description": "Log output to console with attribute"
 	},
-	/* comment start */
 	"line comment block": {
 		"prefix": [
 			"rrl",
@@ -71,7 +70,6 @@
 		],
 		"description": "html comment block"
 	},
-	/* comment end */
 	"@title": {
 		"prefix": [
 			"@t",

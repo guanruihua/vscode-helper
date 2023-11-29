@@ -4,7 +4,7 @@
   "description": "Common code snippets",
   "publisher": "ruihuag",
   "icon": "images/pkq.png",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "engines": {
     "vscode": "^1.84.0"
   },
@@ -85,6 +85,7 @@
   "scripts": {
     "vscode:prepublish": "pnpm run package",
     "compile": "webpack",
+    "db": "node script/snippets.mjs",
     "watch": "webpack --watch",
     "package": "webpack --mode production --devtool hidden-source-map",
     "compile-tests": "tsc -p . --outDir out",
@@ -96,6 +97,7 @@
     "test": "node ./out/test/runTest.js"
   },
   "devDependencies": {
+    "0file-system": "^0.2.0",
     "@types/mocha": "^10.0.3",
     "@types/node": "18.x",
     "@types/vscode": "^1.84.0",

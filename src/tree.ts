@@ -1,11 +1,7 @@
 import * as vscode from 'vscode'
+import Snippets from './snippets'
 
-const c1Tree = {
-  // 'Snippets': {
-  'vue  !js': 'script-template-js',
-  'vue  !ts': 'script-template-ts',
-  // }
-}
+const c1Tree = Snippets
 
 export const tree = vscode.window.createTreeView('c1', {
   treeDataProvider: {
@@ -15,7 +11,7 @@ export const tree = vscode.window.createTreeView('c1', {
         treeItem = {
           label: el,
           collapsibleState: 0,
-          tooltip: "hover: 单纯的字符串 ",
+          // tooltip: "hover: 单纯的字符串 ",
         }
       } else {
         treeItem = {
