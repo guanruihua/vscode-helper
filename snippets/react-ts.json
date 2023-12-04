@@ -1,13 +1,4 @@
 {
-	"function": {
-		"prefix": "!fn",
-		"body": [
-			"function ${TM_FILENAME_BASE}${1}():void {",
-			"\treturn",
-			"}"
-		],
-		"description": "function"
-	},
 	"react-function-Component": {
 		"prefix": "!fn-C",
 		"body": [

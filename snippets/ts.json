@@ -1,12 +1,11 @@
 {
-	"export-function-ts": {
-		"prefix": "!fn-e",
+	"function": {
+		"prefix": "!fn-ts",
 		"body": [
-			"export function ${TM_FILENAME_BASE}${0}(){",
+			"function ${TM_FILENAME_BASE}${1}():void {",
 			"\treturn",
-			"}",
-			""
+			"}"
 		],
-		"description": "export-function-ts"
+		"description": "function"
 	}
 }

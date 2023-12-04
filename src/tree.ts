@@ -28,7 +28,13 @@ export const tree = vscode.window.createTreeView('c1', {
       const tree = el || c1Tree
       for (let item in tree) {
         const activeItem = tree[item]
-        if (typeof activeItem !== 'object') {
+        if (item === 'body' && Array.isArray(activeItem)) {
+          activeItem.forEach(row => {
+            arr.push(row)
+          })
+        } else if (Array.isArray(tree)) {
+          arr.push(`${activeItem}`)
+        } else if (typeof activeItem !== 'object') {
           arr.push(`${item}：${activeItem}`)
         } else {
           Object.defineProperty(activeItem, "_cc_key", {

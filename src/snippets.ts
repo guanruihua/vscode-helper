@@ -31,6 +31,25 @@ export default {
     }
   },
   "js": {
+    "function": {
+      "prefix": "!fn",
+      "body": [
+        "function ${TM_FILENAME_BASE}${1}() {",
+        "\treturn",
+        "}"
+      ],
+      "description": "function"
+    },
+    "export-function-js": {
+      "prefix": "!fn-e",
+      "body": [
+        "export function ${TM_FILENAME_BASE}${0}(){",
+        "\treturn",
+        "}",
+        ""
+      ],
+      "description": "export-function-js"
+    },
     "ts disable line": {
       "prefix": "ts-dl",
       "body": [
@@ -439,15 +458,6 @@ export default {
     }
   },
   "react-js": {
-    "function": {
-      "prefix": "!fn",
-      "body": [
-        "function ${TM_FILENAME_BASE}${1}() {",
-        "\treturn",
-        "}"
-      ],
-      "description": "function"
-    },
     "react-function-Component": {
       "prefix": "!fn-C",
       "body": [
@@ -482,15 +492,6 @@ export default {
     }
   },
   "react-ts": {
-    "function": {
-      "prefix": "!fn",
-      "body": [
-        "function ${TM_FILENAME_BASE}${1}():void {",
-        "\treturn",
-        "}"
-      ],
-      "description": "function"
-    },
     "react-function-Component": {
       "prefix": "!fn-C",
       "body": [
@@ -529,15 +530,14 @@ export default {
     }
   },
   "ts": {
-    "export-function-ts": {
-      "prefix": "!fn-e",
+    "function": {
+      "prefix": "!fn-ts",
       "body": [
-        "export function ${TM_FILENAME_BASE}${0}(){",
+        "function ${TM_FILENAME_BASE}${1}():void {",
         "\treturn",
-        "}",
-        ""
+        "}"
       ],
-      "description": "export-function-ts"
+      "description": "function"
     }
   },
   "vue": {
