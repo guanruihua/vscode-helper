@@ -4,7 +4,7 @@
   "description": "Common code snippets",
   "publisher": "ruihuag",
   "icon": "images/pkq.png",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "engines": {
     "vscode": "^1.84.0"
   },
@@ -15,6 +15,22 @@
   "main": "./dist/extension.js",
   "contributes": {
     "snippets": [
+      {
+        "language": "html",
+        "path": "./snippets/html.json"
+      },
+      {
+        "language": "html5",
+        "path": "./snippets/html.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/js.json"
+      },
+      {
+        "language": "html5",
+        "path": "./snippets/js.json"
+      },
       {
         "language": "vue",
         "path": "./snippets/vue.json"
