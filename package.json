@@ -4,7 +4,7 @@
   "description": "Common code snippets",
   "publisher": "ruihuag",
   "icon": "images/pkq.png",
-  "version": "0.0.7",
+  "version": "0.0.9",
   "engines": {
     "vscode": "^1.84.0"
   },
