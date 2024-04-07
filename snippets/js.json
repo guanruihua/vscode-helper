@@ -101,17 +101,33 @@
 	},
 	"@title": {
 		"prefix": [
-			"@t",
 			"@title"
 		],
 		"body": [
-			"@title $1$0"
+			"@title $1"
 		],
 		"description": "Log output to @title"
 	},
+	"@supported": {
+		"prefix": [
+			"@supported"
+		],
+		"body": [
+			"@supported $1"
+		],
+		"description": "Log output to @supported"
+	},
+	"@notSupported": {
+		"prefix": [
+			"@notSupported"
+		],
+		"body": [
+			"@supported $1"
+		],
+		"description": "Log output to @notSupported"
+	},
 	"@lastUpdate": {
 		"prefix": [
-			"@last",
 			"@lastUpdate"
 		],
 		"body": [
@@ -121,7 +137,6 @@
 	},
 	"@paradigm": {
 		"prefix": [
-			"@p",
 			"@paradigm"
 		],
 		"body": [
