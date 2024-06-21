@@ -1,8 +1,17 @@
 {
+	"clear&log": {
+		"prefix": [
+			"clg"
+		],
+		"body": [
+			"console.clear()",
+			"console.log(${1})"
+		],
+		"description": "console.clear();\nconsole.log;"
+	},
 	"console.log": {
 		"prefix": [
-			"lg",
-			"log"
+			"lg"
 		],
 		"body": [
 			"console.log(${1})"
